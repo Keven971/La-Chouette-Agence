@@ -365,6 +365,7 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
+
         position: absolute;
         top: 50%;
         right: 20px;
@@ -680,10 +681,10 @@ a {
 p {
     font-size: 16px;
 }
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    color: #000000;
 }
 
 .h1 {
@@ -773,12 +774,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
+    width: 100%;
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #000000!important;
-    background-color: #c6d4d2;
+    color: #d9edf7!important;
 }
 
 .btn-atomic-tangerine {
