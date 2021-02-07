@@ -74,26 +74,24 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" validate="Your message has been sent." formnovalidate="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<form action="/ma-page-de-traitement" method="post">
-							<div>
-								<label for="name">Nom :</label>
-								<input type="text" id="name" name="user_name">
-							</div>
-							<div>
-								<label for="mail">Adresse email :</label>
-								<input type="email" id="mail" name="user_mail">
-							</div>
-							<div>
-								<label for="msg">Comment nous avez-vous connu ?</label>
-								<input id="msg" name="user_message">
-							</div>
-						<label for="message">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								<div>
+									<label for="name">Nom :</label>
+									<input type="text" id="name" name="user_name">
+								</div>
+								<div>
+									<label for="mail">Adresse email :</label>
+									<input type="email" id="mail" name="user_mail">
+								</div>
+								<div>
+									<label for="msg">Comment nous avez-vous connu ?</label>
+									<input id="msg" name="user_message">
+								</div>
+								<label for="message">
+									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div>
-						</form> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
