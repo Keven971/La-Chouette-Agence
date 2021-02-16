@@ -24,6 +24,17 @@ a:hover {
 	background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 	width: 100%;
 }
+.center-contact {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.center-address {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
 .bloc {
 	position: relative;
 	clear: both;
@@ -558,7 +569,7 @@ a {
 	font-weight: 400;
 }
 .container {
-	max-width: 100%;
+	max-width: 1000px;
 }
 .hero-bloc-text {
 	font-size: 38px;
